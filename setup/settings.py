@@ -141,7 +141,7 @@ runserver.default_addr = "0.0.0.0"
 
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'PN8TRXZK95XTWJO9I54G'
-AWS_SECRET_ACCESS_KEY = 'E79RHaC6AwjlKiKA2pCEOzdMQOdCODXyE5eTb0zR'
-AWS_STORAGE_BUCKET_NAME = 'thephotos'
-AWS_S3_ENDPOINT_URL = 'https://s3.us-west-1.wasabisys.com'
+AWS_ACCESS_KEY_ID = '' #put here ACCESS KEY from WASABI
+AWS_SECRET_ACCESS_KEY = '' #put here SECRET KEY from WASABI
+AWS_STORAGE_BUCKET_NAME = '' #put here BUCKET NAME from WASABI
+AWS_S3_ENDPOINT_URL = 'https://s3.us-west-1.wasabisys.com' #list url storages https://wasabi-support.zendesk.com/hc/en-us/articles/360015106031-What-are-the-service-URLs-for-Wasabi-s-different-storage-regions-
